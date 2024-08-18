@@ -1,0 +1,892 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.container{
+    width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+:root{
+    --button_color:#9C2482;
+    --text_color: #F5F5F5;
+    --second_color: #524848;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ========================header============================ */
+.header_wrap{
+    background-color: var(--button_color);
+    height: 90px;
+    align-items: center;
+}
+.logo{
+    gap: 10px;
+    align-items: center;
+}
+.logo img{
+    margin-left: 90px;
+}
+.menu{
+    margin-left: 132px;
+    margin-right: 133px;
+    gap: 64px;
+}
+.logo h1{
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 51px;
+    color: var(--text_color);
+}
+.menu a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--text_color);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.phone{
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    top: 18px;
+    left: 1242px;
+    border: 1px solid var(--text_color);
+    padding: 11px 32px;
+}
+
+.phone p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--text_color);
+}
+/* ===================================sec1===================================== */
+.sec1_wrap{
+    height: 693px;
+    background-image: url(/images/Rectangle\ 4.png);
+}
+
+.text{
+    position: absolute;
+    top: 260px;
+    left: 90px;
+}
+
+.text h1{
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 86px;
+    color: var(--button_color);
+}
+
+.text p{
+    width: 459px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--second_color);
+}
+
+.text .button{
+    margin-top: 20px;
+    width: 268px;
+    height: 53px;
+    background-color: var(--button_color);
+}
+
+.text .btn{
+    text-align: center;
+    padding-left: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 53px;
+    color: var(--text_color);
+}
+
+.media{
+    position: absolute;
+    bottom: 28px;
+    left: 90px;
+    gap: 30px;
+    justify-content: center;
+}
+
+.media a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--second_color);
+}
+
+/* ===================================sec2=========================== */
+.sec2{
+    margin-top: 79px;
+    height: 627px;
+}
+
+.sec2 h2{
+    position: absolute;
+    top: 8px;
+    left: 699px;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+    color: var(--button_color);
+}
+
+.about .salon_img{
+    position: absolute;
+    left: 90px;
+    top: 102px;
+    z-index: 2;
+}
+
+.about .play_img{
+    position: absolute;
+    left: 116px;
+    top: 478px;
+    z-index: 3;
+}
+
+.about .elipse{
+    position: absolute;
+    left: 103px;
+    top: 462px;
+}
+
+.about_text{
+    position: absolute;
+    top: 103px;
+    left: 1049px;
+}
+.about_text h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: black;
+}
+
+.span1{
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: black;
+}
+
+.about_text p{
+    margin-top: 9px;
+    width: 447px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--second_color);
+}
+.about_text .button{
+    margin-top: 30px;
+    width: 222px;
+    height: 54px;
+    background-color: var(--button_color);
+}
+
+.about_text .btn{
+    padding-left: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 55px;
+    color: var(--text_color);
+}
+
+/* ===================================sec3=========================== */
+.sec3{
+    height: 531px;
+}
+
+.sec3 h2{
+    position: absolute;
+    top: 81px;
+    left: 699px;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+    color: var(--button_color);
+}
+
+.preference{
+    position: absolute;
+    top: 175px;
+    left: 148px;
+    gap: 48px;
+    justify-content: center;
+}
+.icons{
+    text-align: center;
+}
+.icons h3{
+    margin-top: 41px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    color: black;
+}
+
+.icons p{
+    width: 290px;
+    margin-top: 41px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--second_color);
+    text-align: left;
+}
+
+.line1{
+    height: 0.5px;
+    width: 1600px;
+    background-color: var(--button_color);
+    position: absolute;
+    top: 266px;
+}
+
+.line2{
+    height: 0.5px;
+    width: 1600px;
+    background-color: var(--button_color);
+    position: absolute;
+    top: 345px;
+}
+/* ===================================sec4================================== */
+.sec4{
+    height: 510px;
+    margin-top: 50px
+}
+
+.sec4 h2{
+    position: absolute;
+    left: 698px;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+    color: var(--button_color);
+}
+
+.sec4 .makeup{
+    position: absolute;
+    left: 165px;
+    top: 88px;
+}
+
+.sec4 .text1{
+    position: absolute;
+    top: 88px;
+    left: 708px;
+}
+.text1 h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: black;
+}
+
+.text1 p{
+    margin-top: 30px;
+    width: 603px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--second_color);
+}
+
+.text1 .button{
+    margin-top: 30px;
+    width: 290px;
+    height: 67px;
+    background-color: var(--button_color);
+}
+
+.text1 .btn{
+    padding-left: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 70px;
+    color: var(--text_color);
+}
+.sec4 .lily{
+    position: absolute;
+    top: 308px;
+    left: 1132px;
+}
+
+.sec4 .right{
+    position: absolute;
+    top: 270px;
+    left: 1496px;
+}
+
+.sec4 .left{
+    position: absolute;
+    top: 270px;
+    left: 90px;
+}
+
+/* ===================================sec5================================== */
+.sec5{
+    height: 708px;
+}
+.sec5 h2{
+    position: absolute;
+    top: 64px;
+    left: 607px;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+    color: var(--button_color);
+}
+
+.team{
+    position: absolute;
+    left: 242px;
+    top: 153px;
+    gap: 60px;
+}
+
+.team a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: var(--second_color);
+}
+
+.team li:nth-child(1) a{
+    color: black;
+}
+
+.us{
+    gap: 39px;
+    position: absolute;
+    left: 152px;
+    top: 206px;
+    text-align: center;
+}
+
+.us h3{
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    color: var(--button_color);
+}
+
+.us p{
+    margin-top: 5px;
+    width: 400px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 29px;
+    color: var(--second_color);
+}
+
+.sec5 .right{
+    position: absolute;
+    top: 374px;
+    left: 1495px;
+}
+
+.sec5 .left{
+    position: absolute;
+    top: 374px;
+    left: 90px;
+}
+
+/* ===================================sec6================================== */
+.sec6{
+    height: 911px;
+}
+
+.sec6 h2{
+    position: absolute;
+    left: 435px;
+    top: 0px;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+    color: var(--button_color);
+}
+
+.sells{
+    width: 700px;
+    position: absolute;
+    left: 90px;
+    top: 88px;
+    gap: 20px;
+}
+
+.line3{
+    height: 0.5px;
+    width: 100%;
+    background-color: var(--button_color);
+    margin-top: 24px;
+}
+
+.sec6 h3{
+    margin-top: 29px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: black;
+}
+
+.line4{
+    height: 0.5px;
+    width: 100%;
+    background-color: var(--button_color);
+    margin-top: 29px;
+}
+
+.sells p{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 640px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--second_color);
+}
+
+.sells div:nth-child(2) p{
+    width: 530px;
+}
+
+.sec6 .button{
+    position: absolute;
+    top: 796px;
+    left: 690px;
+    width: 222px;
+    height: 54px;
+    background-color: var(--button_color);
+}
+
+.sec6 .btn{
+    padding-left: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 55px;
+    color: var(--text_color);
+}
+/* ==================================sec7================================ */
+.sec7{
+    height: 410px;
+}
+
+.sec7 h2{
+    position: absolute;
+    left: 519px;
+    top: 25px;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+    color: var(--button_color);
+}
+
+.responds{
+    position: absolute;
+    left: 150px;
+    top: 133px;
+    gap: 20px;
+}
+.responds h3{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    color: var(--button_color);
+}
+
+.responds p{
+    padding-top: 10px;
+    width: 560px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--second_color);
+}
+.responds div{
+    padding: 20px 40px 70px 40px;
+    border: 1px solid var(--button_color);
+}
+
+.star1{
+    position: absolute;
+    top: 158px;
+    left: 605px;
+}
+
+.star2{
+    position: absolute;
+    top: 158px;
+    left: 1263px;
+}
+
+.sec7 .right{
+    position: absolute;
+    top: 231px;
+    left: 1495px;
+}
+
+.sec7 .left{
+    position: absolute;
+    top: 231px;
+    left: 90px;
+}
+
+/* ================================sec8===================================== */
+.sec8_wrap{
+    margin-top: 100px;
+    height: 532px;
+}
+.sec8_wrap img{
+    position: absolute;
+    left: 90px;
+}
+
+.forms{
+    position: absolute;
+    left: 903px;
+}
+
+.forms h2{
+    width: 627px;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 58px;
+    color: var(--button_color);
+    margin-bottom: 30px;
+}
+
+input{
+    width: 608px;
+    height: 43px;
+    margin-bottom: 30px;
+    border: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+}
+.line5{
+    position: absolute;
+    top: 187px;
+    width: 608px;
+    height: 1px;
+    background-color: var(--second_color);
+}
+input::placeholder{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: black;
+}
+
+.line6{
+    position: absolute;
+    top: 259px;
+    width: 608px;
+    height: 1px;
+    background-color: var(--second_color);
+}
+
+.form_group select{
+    width: 608px;
+    height: 43px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: black;
+    margin-bottom: 30px;
+    border: 0px;
+}
+
+.line7{
+    position: absolute;
+    top: 334px;
+    width: 608px;
+    height: 1px;
+    background-color: var(--second_color);
+}
+
+.my_group{
+    gap: 47px;
+}
+.my_group select{
+    width: 280px;
+    height: 43px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: black;
+    margin-bottom: 30px;
+    border: 0px;
+}
+
+.line8{
+    position: absolute;
+    top: 407px;
+    width: 280px;
+    height: 1px;
+    background-color: var(--second_color);
+}
+
+.line9{
+    position: absolute;
+    top: 407px;
+    left: 327px;
+    width: 280px;
+    height: 1px;
+    background-color: var(--second_color);
+}
+
+.sec8 .button{
+    position: absolute;
+    top: 478px;
+    left: 1288px;
+    width: 222px;
+    height: 54px;
+    background-color: var(--button_color);
+}
+
+.sec8 .btn{
+    padding-left: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 55px;
+    color: var(--text_color);
+}
+
+/* ==================================sec9================================ */
+.sec9{
+    margin-top: 100px;
+    height: 491px;
+}
+
+.sec9 h2{
+    position: absolute;
+    left: 696px;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 58px;
+    color: var(--button_color);
+}
+
+.contacts{
+    position: absolute;
+    left: 90px;
+    top: 88px;
+    gap: 50px;
+}
+.contact_text p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.contact_text span{
+    color: var(--button_color);
+}
+
+.contact_text img{
+    margin-top: -5px;
+}
+
+.sec9 .button{
+    position: absolute;
+    top: 414px;
+    left: 931px;
+    width: 222px;
+    height: 54px;
+    background-color: var(--button_color);
+}
+
+.sec9 .btn{
+    padding-left: 45px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 55px;
+    color: var(--text_color);
+}
+
+/* ========================footer============================ */
+.footer_wrap{
+    margin-top: 112px;
+    background-color: var(--button_color);
+    height: 168px;
+    align-items: center;
+}
+.footer_wrap .logo2{
+    position: absolute;
+    top: 30px;
+    left: 90px;
+    gap: 10px;
+    align-items: center;
+}
+.logo2 h1{
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 51px;
+    color: var(--text_color);
+}
+.footer_wrap .menu2{
+    position: absolute;
+    top: 30px;
+    left: 458px;
+    gap: 64px;
+}
+
+.menu2 a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--text_color);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.phone_email p{
+    position: absolute;
+    top: 30px;
+    left: 1294px;
+    width: 216px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--text_color);
+}
+
+.phone_email span{
+    font-weight: 700;
+}
+
+.phone_email img{
+    position: absolute;
+    top: 118px;
+    left: 1294px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================animations======================= */
+.button{
+    cursor: pointer;
+    transition: 1s;
+}
+.button:hover{
+    transform:scale(1.15);
+}
+
+.right{
+    cursor: pointer;
+    transition: 1s;
+}
+.left{
+    cursor: pointer;
+    transition: 1s;
+}
+.right:hover{
+    transform:scale(1.3);
+}
+.left:hover{
+    transform:scale(1.3);
+}
+
+.play_img:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+.menu a:hover{
+    color: rgb(212, 167, 198);
+}
+
+.menu2 a:hover{
+    color: rgb(212, 167, 198);
+}
+
+li{
+    cursor: pointer;
+    transition: 1s;
+}
+li:hover{
+    transform: scale(1.2);
+}
